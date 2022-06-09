@@ -114,3 +114,8 @@ p {
 .project-item + .project-item{
   padding-top: 40px;
 }
+
+footer{
+  background-color: aliceblue;
+  
+}
