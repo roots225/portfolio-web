@@ -1,40 +1,43 @@
 @font-face {
-  font-family: 'Prata';
-  src: url('./fonts/Prata-Regular.ttf') format('ttf');
+  font-family: "Prata";
+  src: url("./fonts/Prata-Regular.ttf") format("ttf");
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 300;
-  src: url('./fonts/inter/Inter-Light.ttf') format('ttf');
+  src: url("./fonts/inter/Inter-Light.ttf") format("ttf");
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 400;
-  src: url('./fonts/inter/Inter-Regular.ttf') format('ttf');
+  src: url("./fonts/inter/Inter-Regular.ttf") format("ttf");
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 500;
-  src: url('./fonts/inter/Inter-Medium.ttf') format('ttf');
+  src: url("./fonts/inter/Inter-Medium.ttf") format("ttf");
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 900;
-  src: url('./fonts/inter/Inter-Bold.ttf') format('ttf');
+  src: url("./fonts/inter/Inter-Bold.ttf") format("ttf");
 }
-
 
 body {
   padding: 0;
   background-color: #000;
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: rgba(255, 255, 255, 0.95);
-  font-family: 'Prata', serif;
+  font-family: "Prata", serif;
   font-weight: 400;
   margin: 0;
 }
@@ -42,14 +45,14 @@ h1, h2, h3, h4, h5 {
 section {
 }
 
-ul{
+ul {
   margin: 0;
   padding: 0;
 }
 p {
   margin-top: 5px;
   margin-bottom: 15px;
-} 
+}
 
 .container {
   padding: 0 10px;
@@ -59,20 +62,19 @@ p {
   padding-top: 15px;
 }
 
-
 .header .navbar .navbar-brand {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header .navbar .navbar-brand .logo{
-  font-family: 'Prata';
+.header .navbar .navbar-brand .logo {
+  font-family: "Prata";
   font-weight: 500;
   font-size: 1.3em;
 }
 
-.header .navbar  .navbar-nav {
+.header .navbar .navbar-nav {
   display: none;
 }
 
@@ -96,26 +98,25 @@ p {
 .partners li {
   list-style: none;
 }
-.partners li{
+.partners li {
   padding: 10px 15px;
 }
 
-
 /* PROJECTS */
-.project-item img{
+.project-item img {
   width: 100%;
   height: auto;
 }
-.project-item h2{
+.project-item h2 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.project-item + .project-item{
+.project-item + .project-item {
   padding-top: 40px;
 }
 
-footer{
+footer {
   background-color: aliceblue;
-  
+  text-align: center;
 }
